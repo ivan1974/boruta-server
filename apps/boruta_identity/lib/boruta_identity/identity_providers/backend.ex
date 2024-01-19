@@ -187,6 +187,7 @@ defmodule BorutaIdentity.IdentityProviders.Backend do
                                         "name" => %{"type" => "string"},
                                         "locale" => %{"type" => "string"},
                                         "background_color" => %{"type" => "string"},
+                                        "background_image" => %{"type" => "string"},
                                         "text_color" => %{"type" => "string"},
                                         "logo" => %{
                                           "type" => "object",

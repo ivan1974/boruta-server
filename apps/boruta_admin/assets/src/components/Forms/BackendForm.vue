@@ -249,6 +249,10 @@
             <input type="text" v-model="credential.display.background_color" placeholder="#53b29f">
           </div>
           <div class="field" :class="{ 'error': backend.errors?.verifiable_credentials }">
+            <label>Background image URL</label>
+            <input type="text" v-model="credential.display.background_image" placeholder="https://">
+          </div>
+          <div class="field" :class="{ 'error': backend.errors?.verifiable_credentials }">
             <label>Text color</label>
             <input type="text" v-model="credential.display.text_color" placeholder="#ffffff">
           </div>
